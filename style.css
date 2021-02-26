@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: 0;
+}
+html {
+  font-size: 62, 5%;
+}
+
+/* expertise text part */
+.expertise-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+}
+hr {
+  width: 5vh;
+  background: rgb(199, 196, 196);
+  margin: 1rem;
+}
+
+/* .grid-container {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap;
+}
+.grid-container {
+  background: rgb(17, 30, 32);
+} */
+.grid-container {
+  display: grid;
+  min-height: 60vh;
+  min-width: 60vh;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.grid-item-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  border-right: thin solid rgb(199, 196, 196);
+  border-bottom: thin solid rgb(199, 196, 196);
+}
+.grid-item-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  border-right: thin solid rgb(199, 196, 196);
+  border-bottom: thin solid rgb(199, 196, 196);
+}
+.grid-item-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  border-bottom: thin solid rgb(199, 196, 196);
+}
+.grid-item-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  border-right: thin solid rgb(199, 196, 196);
+}
+.grid-item-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  border-right: thin solid rgb(199, 196, 196);
+}
+.grid-item-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+.grid-container img {
+  margin: 2rem;
+  padding: 2rem;
+}
+.grid-container h2 {
+  margin: 0.2rem;
+  padding: 0.2rem;
+}
+.grid-container p {
+  margin: 0.2rem;
+  padding: 0.2rem;
+}
+.expertise {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* position: relative; */
+  width: 60%;
+  margin: auto;
+}
