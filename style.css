@@ -1,11 +1,149 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-shadow: 0;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+  html {
+    font-size: 62.5%;
+  }
+/* Heaeder */
+.main-head {
+    background: url(./images/bgk-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:80vh;    
+    flex-direction: row;
+    justify-content: center;
+  }
+
+.Agency {
+    display: flex;
+
 }
-html {
-  font-size: 62, 5%;
+
+.Logo {
+    
 }
+
+.Logoname {
+    color: aquamarine;
+    opacity: 0.6;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+.container-navbar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+nav {
+    margin-left: 5rem;
+}
+
+.nav-ul {
+    display: flex;
+    list-style-type: none;   
+}
+
+.nav-ul li {
+    margin-left: 1rem;
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+}
+
+.nav-ul li a:hover {
+    color: aquamarine;
+}
+
+.Learn {
+    padding: 0.5rem 0.5rem;
+    background: none;
+    border: 1px solid aquamarine;
+    color: aquamarine;
+    font-size: 1rem;
+    opacity: 0.6;
+    text-transform: uppercase;   
+    }
+
+.Agency {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin-top: 7rem;
+}
+
+hr {
+    width: 5%;
+    border: 0.5px solid aquamarine;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    opacity: .6;
+}
+
+.Agency p {
+    padding: 1rem
+}
+
+/* header ends here */
+
+
+/* section about */
+
+  #learn {
+      color: aquamarine;
+      background: none;
+      padding: 1rem;
+      border-radius: 2px;
+      text-decoration: none;
+      font-weight: bold;
+      border: 1px solid aquamarine;
+  }
+ .about-upper {
+     display: flex;
+     margin: 0px auto;
+     justify-content: center;
+ }
+
+ .logo-big {
+     margin: 5rem;
+ }
+ .container {
+     margin: 5rem;
+ }
+ .about-text {
+     padding: 2rem 0rem;
+ }
+ .about-under {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    text-align: center;
+    min-height: 60vh;
+    background-image: url(images/pngs/bgk-middle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+
+ }
+
+ .about-under p {
+     padding: 3rem;
+     color: white;
+ }
+
+/* section about endshere */
 
 /* expertise text part */
 .expertise-text {
@@ -22,16 +160,6 @@ hr {
   margin: 1rem;
 }
 
-/* .grid-container {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-row-gap;
-}
-.grid-container {
-  background: rgb(17, 30, 32);
-} */
 .grid-container {
   display: grid;
   min-height: 60vh;
@@ -105,7 +233,6 @@ hr {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* position: relative; */
   width: 60%;
   margin: auto;
 }
