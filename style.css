@@ -1,3 +1,13 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+  html {
+    font-size: 62.5%;
+  }
+
 .main-head {
     background: url(./images/bgk-header.png);
     background-size: cover;
@@ -85,3 +95,49 @@ hr {
 .Agency p {
     padding: 1rem
 }
+
+
+  #learn {
+      color: aquamarine;
+      background: none;
+      padding: 1rem;
+      border-radius: 2px;
+      text-decoration: none;
+      font-weight: bold;
+      border: 1px solid aquamarine;
+  }
+ .about-upper {
+     display: flex;
+     margin: 0px auto;
+     justify-content: center;
+ }
+
+ .logo-big {
+     margin: 5rem;
+ }
+ .container {
+     margin: 5rem;
+ }
+ .about-text {
+     padding: 2rem 0rem;
+ }
+ .about-under {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    text-align: center;
+    min-height: 60vh;
+    background-image: url(images/pngs/bgk-middle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+
+ }
+
+ .about-under p {
+     padding: 3rem;
+     color: white;
+ }
+
+
