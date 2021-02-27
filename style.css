@@ -21,7 +21,7 @@
 
 }
 
-.Logo {
+.Logo img {
     
 }
 
@@ -99,7 +99,9 @@ hr {
 
 
 /* section about */
-
+  .wrapper {
+    margin: auto;
+  }
   #learn {
       color: aquamarine;
       background: none;
@@ -110,16 +112,20 @@ hr {
       border: 1px solid aquamarine;
   }
  .about-upper {
+   height: 60vh;
      display: flex;
      margin: 0px auto;
      justify-content: center;
+     align-items: center;
  }
 
  .logo-big {
-     margin: 5rem;
+     margin: 2rem;
+     /* width: fit-content; */
+     height: 25rem;
  }
  .container {
-     margin: 5rem;
+     margin: 2rem;
  }
  .about-text {
      padding: 2rem 0rem;
@@ -236,3 +242,76 @@ hr {
   width: 60%;
   margin: auto;
 }
+
+/* start of section works */
+.works {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  padding: 10rem;
+  margin: 10rem;
+  align-items: center;
+
+}
+
+.news-form form {
+  display: grid;
+  justify-content: space-between;
+  
+}
+.news-form input{
+  height: 2rem;
+  width: 36.5rem;
+  padding: 1rem;
+  border: thin solid rgba(212, 212, 212, 0.979);
+
+}
+.news-form div {
+  margin: 1.5rem 0rem;
+}
+
+textarea {
+  padding: 1rem;
+  border: thin solid rgba(212, 212, 212, 0.979);
+  
+}
+
+#sub {
+  width: 13rem;
+  color: aquamarine;
+  background: none;
+  padding: 1rem;
+  border-radius: 2px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid aquamarine;
+}
+
+.client {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+
+}
+.second  h2{
+  padding: 2rem 0;
+}
+.logos {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr 1fr 1fr ;
+  gap: 30px 25px;
+  grid-template-areas:
+    ". ."
+    ". ."
+    ". ."
+    ". ."
+    ". .";
+}
+.zara img{
+  width: 15rem;
+
+}
+/* end of works section */
