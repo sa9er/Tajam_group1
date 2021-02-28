@@ -7,16 +7,20 @@
     <link rel="stylesheet" href="style.css">
     <title>Tajam</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
     
         <header class="main-head">
             <div class="container-navbar">
                 <div class="Logo">
-                <input type="image" src="images/png/logo.png" alt="Logo">
-                </div>
-                <div class="Logoname">
-                    tajam
+                    <div class="Logo-image">
+                        <input type="image" src="images/png/logo.png" alt="Logo">
+                    </div>
+                    <div class="Logo-name">
+                        tajam
+                    </div>
                 </div>
                 <nav>
                     <ul class="nav-ul">
@@ -30,14 +34,16 @@
                     </ul>                                                                                                  
                 </nav>
             </div>
-            <section class="Agency">
+            <section id="Home">
+            <div class="Agency">
                 <h1>We Are  Awesome Creative Agency</h1>
-                <hr>
+                <hr class="hr-Agency">
                 <P>This is Photoshop’s version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,<br> 
                 lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh<br> 
                 vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</P>
-            <div><button class="Learn">Learn more</button></div>
-            </section>            
+            <div class="button-learn"><button class="Learn">Learn more</button></div>
+            </div>            
+            </section>
         </header>
    
 
@@ -45,7 +51,11 @@
 
 
 
+
     <section class="about">
+
+    <section id="About">
+ 
         <div class="wrapper">
           <div class="about-upper">
               <img class="logo-big" src="images/pngs/logo-big.png" alt="logo">
@@ -78,23 +88,64 @@
     </section>
 
    
+    <section id="Expertise" class="expertise">
+        <div class="expertise-text">
+            <h2>EXPERTISE</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, provident.</p>
+            <hr>
+        </div>
+        <div class="grid-container">      
+                <div class="grid-item grid-item-1"><img src="./images/pngs/screen.png" alt=""><h2>WEB DESIGN & DEVELOPMENT</h2><p>This is Photosho's version of Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, accusantium!</p></div>
+                <div class="grid-item grid-item-2"><img src="./images/pngs/pen.png" alt=""><h2>BRANDING IDENTITY</h2><p>This is Photosho's version of Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, accusantium!</p></div>
+                <div class="grid-item grid-item-3"><img src="./images/pngs/mobile.png" alt=" "><h2>MOBILE APP</h2><p>This is Photosho's version of Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, accusantium!</p></div>
+                <div class="grid-item grid-item-4"><img src="./images/pngs/graph.png" alt=""><h2>SEARCH ENGLINE OPTIMIZATION</h2><p>This is Photosho's version of Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, accusantium!</p></div>
+                <div class="grid-item grid-item-5"><img src="./images/pngs/gameboy.png" alt=""><h2>GAME DEVELOPMENT</h2><p>This is Photosho's version of Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, accusantium!</p></div>
+                <div class="grid-item grid-item-6"><img src="./images/pngs/heart.png" alt=""><h2>MADE WITH LOVE</h2><p>This is Photosho's version of Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, accusantium!</p></div>
+        </div>
+    </section>
 
-<section class="expertise">
-    <div class="expertise-text">
-        <h2>EXPERTISE</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, provident.</p>
-        <hr>
-    </div>
-    <div class="grid-container">      
-            <div class="grid-item grid-item-1"><img src="./images/pngs/screen.png" alt=""><h2>test</h2><p>This is Photosho's version of Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, accusantium!</p></div>
-            <div class="grid-item grid-item-2"><img src="./images/pngs/pen.png" alt=""><h2>test</h2><p>This is Photosho's version of Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, accusantium!</p></div>
-            <div class="grid-item grid-item-3"><img src="./images/pngs/mobile.png" alt=" "><h2>test</h2><p>This is Photosho's version of Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, accusantium!</p></div>
-            <div class="grid-item grid-item-4"><img src="./images/pngs/graph.png" alt=""><h2>test</h2><p>This is Photosho's version of Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, accusantium!</p></div>
-            <div class="grid-item grid-item-5"><img src="./images/pngs/gameboy.png" alt=""><h2>test</h2><p>This is Photosho's version of Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, accusantium!</p></div>
-            <div class="grid-item grid-item-6"><img src="./images/pngs/heart.png" alt=""><h2>test</h2><p>This is Photosho's version of Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, accusantium!</p></div>
-    </div>
-</section>
+    <section id="Teams" class="team">
+        <div class="team-text">
+            <h2>MEET OUR AMAZING TEAM</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <hr>
+        </div>
+        <div class="wrapper-grid-team">
+            <div class="grid-container-team">
+                <div class="grid-item grid-item-team1">
+                    <div class="Fake-image"></div>
+                        <div class="Team-names">
+                            <h2>SEMF UCUK</h2><p>CEO & FOUNDER</p>
+                        </div>
+                    </div>
+                    <div class="grid-item grid-item-team2">
+                        <div class="Fake-image"></div>
+                        <div class="Team-names">
+                            <h2>DIK ADALIN</h2><p>ENGINEERING</p>
+                        </div>
+                    </div>
+                    <div class="grid-item grid-item-team3">
+                        <div class="Fake-image"></div>
+                        <div class="Team-names">
+                            <h2>JENG KOL</h2><p>DESIGNER</p>
+                        </div>
+                    </div>
+                    <div class="grid-item grid-item-team4">
+                        <div class="Fake-image"></div>
+                        <div class="Team-names">
+                            <h2>PET ROMAK</h2><p>MARKETING</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="become-a-part">
+            <p>Become a Part of our dream team, let's join us!</p>
+            <div><button class="Hiring">We are Hiring</button></div>
+        </div>
+        
+    </section>
 
+      
 <section class="works">
     <div class="news-form">
       <h2>GIVE US A GOOD NEWS</h2>
@@ -104,11 +155,6 @@
           <div><input type="text" placeholder="Subject"></div>
           <div><textarea name="massage" id="massage" cols="50" rows="10" 
             placeholder="Your Massage"></textarea></div>
-            
-          
-          
-          
-          
       </form>
       <button id="sub">SUBMIT</button>
     </div>
@@ -131,7 +177,54 @@
         </div>  
 
     </div>
+</section>    
+
+
+<footer class="entire-footer">    
+    <div class="footer">
+<div class="first-footer-div">
+    <div class="footer-logo"><img src="/images/png/logo.png" alt="tajam icon"> 
+    <h2>tajam</h2></div>
+    <p>Lorem, ipsum dolor sit amet consectetur </br>adipisicing elit. Alias autem  unde cum fugiat <br> culpa sed officiis eveniet repellat, rem eos.</p>
+</div>
+<div class="second-footer-div">
+    <h2>OUR STUDIO</h2>
+    <div class="adress">
+    <img src="/images/png/big104.png" alt="location icon"><p>Ruko cucruk, Jl. Radio luar dalem jos</br> No.12 - 13, Kalideres - Jakarta Barat </br>11480 - Indonesia</p>
+</div>
+<div class="phone"><img src="/images/png/phone351.png" alt="phone icon"><p>(+62)21-2224 3333</p>
+</div>
+</div>
+<div class="third-footer-div"><h2>STAY IN TOUCH</h2>
+    <div class="stay-in-touch">
+        <input type="email" placeholder="Subscribe to our Newsletter"><img class="paperplain" src="/images/png/paper122.png" alt="a paper airplane icon">
+
+    </div>
+
 </section>
+
+
     
+
+    <ul>
+        <li><img src="/images/png/facebook.png" alt="facebook icon"></li>
+        <li><img src="/images/png/twitter.png" alt="twitter icon"></li>
+        <li><img src="/images/png/dribbble.png" alt="dribble icon"></li>
+        <li><img src="/images/png/instagram.png" alt="instagram icon"></li>
+        <li><img src="/images/png/gplus.png" alt="google icon"></li>
+        <li><img src="/images/png/youtube.png" alt="youtube icon"></li>
+    </ul>
+</div>
+</div>
+<div class="copyright">
+    <ul>
+        <li>HELP</li>
+        <li>TERMS & CONDITIONS</li>
+        <li>PRIVACY</li>
+    </ul>
+    <p>Copyright &copy 2015 - Tajam Creative</p>
+</div>
+</footer>  
+
 </body>
 </html>
