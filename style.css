@@ -54,10 +54,12 @@ html {
 .Logo {
   display: flex;
   flex-direction: row;
+  padding-right: 40rem;
 }
 
 .Logo-image {
   opacity: 0.6;
+  
 }
 
 .Logo-name {
@@ -459,8 +461,8 @@ hr {
 }
 
 .Fake-image {
-  min-width: 30rem;
-  min-height: 30rem;
+  min-width: 25rem;
+  min-height: 25rem;
   background: white;
 }
 
