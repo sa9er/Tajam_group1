@@ -6,45 +6,60 @@
   html {
     font-size: 62.5%;
   }
-/* Heaeder */
+/* Header */
 .main-head {
     background: url(./images/bgk-header.png);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height:80vh;    
+    min-height:60vh;    
     flex-direction: row;
     justify-content: center;
   }
 
 .Agency {
     display: flex;
-
+    align-content: center;
+    justify-content: center;
 }
 
 .Logo {
-    
+    display: flex;
+    flex-direction: row;
 }
 
-.Logoname {
+.Logo-image {
+  opacity: 0.6;
+}
+
+.Logo-name {
     color: aquamarine;
     opacity: 0.6;
     font-size: 2rem;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
 }
 
+/* Navigation */
 .container-navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
 }
 
 nav {
     margin-left: 5rem;
+    display: flex;
+    align-content: center;
+    
 }
 
 .nav-ul {
+    margin-top: 2rem;
     display: flex;
-    list-style-type: none;   
+    list-style-type: none;
+    justify-content: center;   
 }
 
 .nav-ul li {
@@ -55,11 +70,14 @@ nav {
     text-decoration: none;
     color:white;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .nav-ul li a:hover {
     color: aquamarine;
 }
+
+/* Navigation ends here */
 
 .Learn {
     padding: 0.5rem 0.5rem;
@@ -79,26 +97,28 @@ nav {
 }
 
 h1 {
-    margin-top: 7rem;
+    margin: 10rem 5rem 1.5rem 5rem;
 }
 
-hr {
-    width: 5%;
-    border: 0.5px solid aquamarine;
-    margin: auto;
-    padding: auto;
-    text-align: center;
-    opacity: .6;
+.hr-Agency {
+  border: none;
+  height: 1px;
+  text-align:center; 
+  margin: 0 auto;
+  min-width: 3rem;
+  /* Set the hr color */
+  color: aquamarine; /* old IE */
+  background-color: aquamarine; /* Modern Browsers */
+  opacity: 0.6;
 }
 
 .Agency p {
     padding: 1rem
 }
 
-/* header ends here */
-
-
-/* section about */
+.button-learn {
+  margin: 4rem;
+}
 
   #learn {
       color: aquamarine;
@@ -108,7 +128,15 @@ hr {
       text-decoration: none;
       font-weight: bold;
       border: 1px solid aquamarine;
+      
   }
+
+  /* header ends here */
+
+
+/* section about */
+
+
  .about-upper {
      display: flex;
      margin: 0px auto;
@@ -236,3 +264,109 @@ hr {
   width: 60%;
   margin: auto;
 }
+/* Expertise ends here */
+
+/* Team section */
+
+.team {
+  background: url(./images/bgk-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height:60vh;    
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+}
+
+.team-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5rem;
+  padding: 1rem;
+}
+
+.team-text h2 {
+  margin: 2rem;
+}
+
+.wrapper-grid-team {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.grid-container-team {
+  width: 50rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: (1, 1fr);
+  grid-column-gap: 2rem;
+  justify-content:center;  
+}
+
+.Team-names {
+  margin: 2rem 5rem;
+  min-width: 10rem;
+  text-align: center;  
+}
+
+.grid-item-team1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: thin solid rgb(199, 196, 196);  
+}
+.grid-item-team2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: thin solid rgb(199, 196, 196);
+}
+.grid-item-team3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: thin solid rgb(199, 196, 196);
+}
+.grid-item-team4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: thin solid rgb(199, 196, 196);
+}
+
+.Fake-image {
+  min-width: 30rem;
+  min-height: 30rem;
+  background: white;
+}
+
+.become-a-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5rem;
+  padding: 5rem;
+}
+
+.Hiring {
+  padding: 0.5rem 0.5rem;
+  background: none;
+  border: 1px solid aquamarine;
+  color: aquamarine;
+  font-size: 1rem;
+  opacity: 0.6;
+  text-transform: uppercase; 
+  display: flex;
+  align-items: center;
+  margin: 5rem;  
+}
+
+/* Team Section ends here */
